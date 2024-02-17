@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorPokedex.Client", "BlazorPokedex.Client\BlazorPokedex.Client.csproj", "{94DC6AFC-FADB-465C-A437-C8C7EC9E0018}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorPokedex.Models", "BlazorPokedex.Models\BlazorPokedex.Models.csproj", "{44388299-206C-4C95-8FB7-4EA41785AE1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorPokedex.Services", "BlazorPokedex.Services\BlazorPokedex.Services.csproj", "{4AE3F8F5-7050-4CC8-8B77-8FF050C838FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94DC6AFC-FADB-465C-A437-C8C7EC9E0018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94DC6AFC-FADB-465C-A437-C8C7EC9E0018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94DC6AFC-FADB-465C-A437-C8C7EC9E0018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94DC6AFC-FADB-465C-A437-C8C7EC9E0018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44388299-206C-4C95-8FB7-4EA41785AE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44388299-206C-4C95-8FB7-4EA41785AE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44388299-206C-4C95-8FB7-4EA41785AE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44388299-206C-4C95-8FB7-4EA41785AE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE3F8F5-7050-4CC8-8B77-8FF050C838FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE3F8F5-7050-4CC8-8B77-8FF050C838FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE3F8F5-7050-4CC8-8B77-8FF050C838FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE3F8F5-7050-4CC8-8B77-8FF050C838FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EFFCE92-0D93-4922-A8E8-AF7009C6BD14}
+	EndGlobalSection
+EndGlobal
