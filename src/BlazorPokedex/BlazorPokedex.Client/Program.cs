@@ -1,4 +1,6 @@
+using BlazorPokedex.Client;
 using BlazorPokedex.Services;
+using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,14 +17,27 @@ namespace BlazorPokedex.Client
     {
         public static async Task Main(string[] args)
         {
+            //var builder = WebAssemblyHostBuilder.CreateDefault(args);
+            //builder.RootComponents.Add<App>("#app");
+
+            //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://pokeapi.co/api/v2/") });
+            //builder.Services.AddScoped<IPokeApiClient, PokeApiClient>();
+
+
+            //await builder.Build().RunAsync();
+
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
+            builder.RootComponents.Add<HeadOutlet>("head::after");
 
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://pokeapi.co/api/v2/")});
+            builder.Services.AddScoped(sp => new HttpClient{BaseAddress = new Uri("https://pokeapi.co/api/v2/") });
             builder.Services.AddScoped<IPokeApiClient, PokeApiClient>();
-
 
             await builder.Build().RunAsync();
         }
     }
+
+
 }
+
+
