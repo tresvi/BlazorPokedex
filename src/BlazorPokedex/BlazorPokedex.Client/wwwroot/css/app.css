@@ -220,3 +220,11 @@ a, .btn-link {
     width:15%;
     text-align:center;
 }
+
+.row-align {
+    text-align:center;
+}
+
+.moreinfo {
+    padding-bottom:10px;
+}
